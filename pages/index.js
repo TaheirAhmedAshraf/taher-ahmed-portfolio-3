@@ -11,7 +11,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <html class="light">
+    <html className="light">
       <div className="dark:bg-background-dark">
         <Navbar />
         <HeroSection />
