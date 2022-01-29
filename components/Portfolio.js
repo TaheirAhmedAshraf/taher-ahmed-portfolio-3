@@ -63,6 +63,7 @@ export default function Portfolio() {
             key={project.id}
             href={project.url}
             target="_blank"
+            rel="noreferrer"
             className="shadow-shadow3 p-6 rounded-2xl ml-5 mt-5 group cursor-pointer "
           >
             <div className="w-full rounded-md overflow-hidden mb-5">
