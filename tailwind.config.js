@@ -36,7 +36,10 @@ module.exports = {
     boxShadow: {
       ...defaultTheme.boxShadow,
       shadow1: "5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff",
+      shadow2: "5px 5px 5px #1C1E22, -5px -5px 5px #1C1E22",
+      shadow3: "5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff",
     },
   },
   plugins: [],
+  darkMode: "class",
 };

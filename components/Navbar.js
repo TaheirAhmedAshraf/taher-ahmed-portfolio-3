@@ -1,6 +1,4 @@
 import React from "react";
-import LogoLight from "../assets/images/logo-light.png";
-import LogoDark from "../assets/images/logo-dark.png";
 import Image from "next/image";
 import { AiOutlineMenu } from "react-icons/ai";
 
@@ -18,14 +16,14 @@ export default function Navbar() {
       <div className="flex justify-between py-6">
         {/* left */}
         <div>
-          <Image src={LogoDark} alt="logo" />
+          <img src="/assets/images/logo-dark.png" alt="logo" />
         </div>
         {/* middle */}
         <div className="hidden md:block">
           <ul className="flex group">
             {NavbarItems.map((item) => (
               <>
-                <li key={item.id} className="navbar-item">
+                <li key={item.id} className="navbar-item dark:text-light-800">
                   {item.name}
                 </li>
               </>
@@ -33,7 +31,7 @@ export default function Navbar() {
           </ul>
         </div>
         {/* right */}
-        <div className="hidden md:block">touggle button</div>
+        {/* <div className="hidden md:block">touggle button</div> */}
         {/* hamburger menu */}
         <div className="md:hidden bg-gray-100 justify-center text-center p-3 rounded-md">
           <AiOutlineMenu />

@@ -11,6 +11,10 @@
   @apply px-5 group-hover:text-dark-200 group-hover:hover:text-primary-light transition-all duration-300 cursor-pointer;
 }
 
+body {
+  background-color: #ecf0ee;
+}
+
 .hero-social-button {
   @apply p-6 
   text-xl 
@@ -24,4 +28,7 @@
   hover:text-white 
   transition-all 
   duration-300;
+}
+.button {
+  @apply py-3 px-5 bg-gradient-to-br from-[#DD1343] to-[#FF3E6C] text-white font-semibold rounded-md;
 }
