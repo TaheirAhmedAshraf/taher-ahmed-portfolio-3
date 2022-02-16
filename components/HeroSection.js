@@ -5,7 +5,7 @@ export default function HeroSection() {
   const [file, setFile] = React.useState(null);
 
   return (
-    <section id="hero" className="my-32">
+    <section id="hero" className="my-10 md:my-32">
       <div className="container mx-auto">
         <div className="grid md:grid-cols-2 md:space-x-3">
           {/* content */}

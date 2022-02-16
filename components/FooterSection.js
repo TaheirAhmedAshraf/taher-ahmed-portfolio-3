@@ -13,19 +13,22 @@ export default function FooterSection() {
     <section id="footer">
       <div className="py-16 border-t border-dark-400">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 space-y-8 md:space-y-0">
+          <div className="grid grid-cols-1 md:grid-cols-3 space-y-8 md:space-y-0 text-center md:text-left">
             <div>
-              <img className="pb-3" src="/assets/images/logo-dark.png" />
+              <img
+                className="pb-3 mx-auto md:mx-0"
+                src="/assets/images/logo-dark.png"
+              />
               <ul className="space-y-2 text-sm text-dark-800 font-medium">
-                <li className="flex items-center space-x-2">
+                <li className="flex items-center space-x-2 justify-center md:justify-start">
                   <FaMapMarkerAlt className="text-base" />
                   <p>South Mourail, Brahmanbaria - 3400</p>
                 </li>
-                <li className="flex items-center space-x-2">
+                <li className="flex items-center space-x-2 justify-center md:justify-start">
                   <FaEnvelope className="text-base" />
                   <p>taheirahmedashraf@gmail.com</p>
                 </li>
-                <li className="flex items-center space-x-2">
+                <li className="flex items-center space-x-2 justify-center md:justify-start">
                   <FaPhoneAlt className="text-base" />
                   <p>+8801843493527</p>
                 </li>
@@ -44,7 +47,7 @@ export default function FooterSection() {
               <h3 className="text-dark-800 text-base font-medium mb-3">
                 Follow me
               </h3>
-              <ul className="text-dark-800 flex space-x-3 text-lg">
+              <ul className="text-dark-800 flex space-x-3 text-lg justify-center">
                 <li>
                   <FaFacebookSquare />
                 </li>
