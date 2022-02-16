@@ -47,7 +47,7 @@ export default function FooterSection() {
               <h3 className="text-dark-800 text-base font-medium mb-3">
                 Follow me
               </h3>
-              <ul className="text-dark-800 flex space-x-3 text-lg justify-center">
+              <ul className="text-dark-800 flex space-x-3 text-lg justify-center md:justify-start">
                 <li>
                   <FaFacebookSquare />
                 </li>

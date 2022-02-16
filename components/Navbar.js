@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { AiOutlineMenu } from "react-icons/ai";
+import AnimatedNavButtons from "./AnmatedNavButtons";
 
 const NavbarItems = [
   { id: 1, name: "Home", link: "#hero" },
