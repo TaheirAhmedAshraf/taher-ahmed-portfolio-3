@@ -10,7 +10,7 @@ import { BsLinkedin, BsYoutube } from "react-icons/bs";
 
 export default function FooterSection() {
   return (
-    <section>
+    <section id="footer">
       <div className="py-16 border-t border-dark-400">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 space-y-8 md:space-y-0">

@@ -3,11 +3,11 @@ import Image from "next/image";
 import { AiOutlineMenu } from "react-icons/ai";
 
 const NavbarItems = [
-  { id: 1, name: "Home", link: "#" },
-  { id: 2, name: "About Me", link: "#" },
-  { id: 3, name: "Skills", link: "#" },
-  { id: 4, name: "Projects", link: "#" },
-  { id: 5, name: "Contact", link: "#" },
+  { id: 1, name: "Home", link: "#hero" },
+  { id: 2, name: "About Me", link: "#about" },
+  { id: 3, name: "Skills", link: "#skill" },
+  { id: 4, name: "Projects", link: "#portfolio" },
+  { id: 5, name: "Contact", link: "#footer" },
 ];
 
 export default function Navbar() {
@@ -23,9 +23,13 @@ export default function Navbar() {
           <ul className="flex group">
             {NavbarItems.map((item) => (
               <>
-                <li key={item.id} className="navbar-item dark:text-light-800">
+                <a
+                  href={item.link}
+                  key={item.id}
+                  className="navbar-item dark:text-light-800"
+                >
                   {item.name}
-                </li>
+                </a>
               </>
             ))}
           </ul>

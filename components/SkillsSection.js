@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SkillsSection() {
   return (
-    <section className="py-16">
+    <section id="skill" className="py-16">
       <div className="container mx-auto">
         <div>
           <h1 className="text-4xl text-dark-800  dark:text-light-800 font-bold text-center mb-8">

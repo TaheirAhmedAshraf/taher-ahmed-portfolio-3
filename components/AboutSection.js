@@ -2,15 +2,18 @@ import React from "react";
 
 export default function AboutSection() {
   return (
-    <section className="py-28">
+    <section id="about" className="py-28">
       <div className="grid md:grid-cols-2 md:space-x-3">
         {/* image */}
         <div>
-          <img className="w-4/6 mx-auto" src="/assets/images/illus2.svg" />
+          <img
+            className="w-3/6 md:w-4/6 mx-auto mb-8 md:mb-0"
+            src="/assets/images/illus2.svg"
+          />
         </div>
         {/* content */}
-        <div className="space-y-4">
-          <span className="text-dark-400 dark:text-light-400 text-lg">
+        <div className="space-y-4 text-center md:text-left">
+          <span className="text-dark-400dark:text-light-400 text-lg">
             ABOUT ME
           </span>
           <h1 className="flex flex-col text-5xl font-extrabold text-dark-800 space-y-2">
@@ -18,7 +21,7 @@ export default function AboutSection() {
               Hello World
             </span>
           </h1>
-          <p className="max-w-md text-dark-400  dark:text-light-400">
+          <p className="w-full md:max-w-md text-dark-400  dark:text-light-400">
             Coding is not just about a nerd working endlessly on a computer.
             Coding is a whole universe of Joy, Adventure, and Creativity.
           </p>
