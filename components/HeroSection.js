@@ -47,7 +47,7 @@ export default function HeroSection() {
               </button>
               <button
                 onClick={() =>
-                  window.open("https://github.com/TaheirAhmedAshraf")
+                  window.open("https://github.com/TaherAhmedAshraf")
                 }
                 className="hero-social-button dark:shadow-shadow2 dark:text-light-800"
               >
